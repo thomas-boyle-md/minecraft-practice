@@ -3,6 +3,7 @@ package net.lttomboyle.mccourse.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lttomboyle.mccourse.MCCourseMod;
+import net.lttomboyle.mccourse.block.custom.SpeedyBlock;
 import net.lttomboyle.mccourse.item.ModItemGroups;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -25,6 +26,9 @@ public class ModBlocks {
 
     public static final Block RAW_ORICHALCUM_BLOCK = registerBlock("raw_orichalcum_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroups.COURSE);
+
+    public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
+            new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroups.COURSE);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

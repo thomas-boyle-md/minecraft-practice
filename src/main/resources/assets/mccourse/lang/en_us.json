@@ -6,7 +6,9 @@
 
   "block.mccourse.orichalcum_block": "Orichalcum Block",
   "block.mccourse.orichalcum_ore": "Orichalcum Ore",
+  "block.mccourse.raw_orichalcum_ore": "Raw Orichalcum Ore",
   "block.mccourse.deepslate_orichalcum_ore": "Deepslate Orichalcum Ore",
+  "block.mccourse.speedy_block": "Speedy Block",
 
   "itemGroup.mccourse.course": "Course Tab",
 
